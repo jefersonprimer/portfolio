@@ -13,11 +13,6 @@
         background-color: #f9f9f9;
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
-        @media (width < 40rem) {
-          html {
-            font-size: 70%;
-          }
-        }
       }
       .container {
         max-width: 800px;
@@ -35,7 +30,7 @@
       }
       h1 {
         margin: 0;
-        font-size: 28px;
+        font-size: 22px;
       }
       h3 {
         margin: 5px 0;
@@ -55,12 +50,13 @@
       li {
         margin-bottom: 5px;
       }
-      @media (max-width: 600px) {
+      @media only screen and (max-width: 600px) {
         .container {
           max-width: 100%;
-          padding: 15px;
           border-radius: 0;
         }
+      }
+      @media (max-width: 40rem) {
         html {
           font-size: 70%;
         }
@@ -68,15 +64,80 @@
     </style>
   </head>
   <body>
-    <div id="cv" class="container">
+    <div class="container">
       <header>
         <h1>JEFERSON PRIMER</h1>
         <h3>Desenvolvedor Mobile</h3>
       </header>
       <hr />
       <section>
-        <h2>OBJETIVO PROFISSIONAL</h2>
+        <div style="display: flex; gap: 5px; align-items: center;">
+          <div>Rio Grande do Sul</div>
+          <div>•</div>
+          <div><a href="index02.html" target="_blank">Portfólio</a></div>
+          <div>•</div>
+          <div><a href="https://github.com/jefersonprimer" target="_blank">Github</a></div>
+          <div>•</div>
+          <div><a href="https://linkedin.com/in/jeferson-primer" target="_blank">LinkedIn</a></div>
+          <div>•</div>
+          <div><a href="https://wa.me/996625561" target="_blank">(55)99662-5561</a></div>
+          <div>•</div>
+          <div><a href="mailto:contato.primerdev@gmail.com">contato.primerdev@gmail.com</a></div>
+        </div>
+      </section>
 
+      <section>
+        <h2>Habilidades e Competências</h2>
+        <div class="skills-list">
+          <p><strong>BACK END DEVELOPMENT |</strong> Kotlin • Android SDK • JavaScript • TypeScript • React NativeJava • Spring • Node.js • Express • TypeScript • MySQL • PostgreSQL • MongoDB • GraphQL • REST APIs</p>
+          <p><strong>FRONT END DEVELOPMENT |</strong> ReactJS • Redux • JavaScript • Angular • Next.js • HTML • CSS • SASS</p>
+          <p><strong>DATA PIPELINES |</strong> SQL • NoSQL • ETL • Data Processing • Optimization </p>
+          <p><strong>MISCELLANEOUS |</strong> Docker • AWS • CI/CD • Machine Learning • Git • GitHub • Slack • JUnit • Jest • Testing Best Practices</p>
+          <p><strong>SOFT SKILLS |</strong> Comunicação eficaz • Trabalho em equipe • Resolução de problemas • Autodidatismo</p>
+        </div>
+      </section>
+      <section>
+        <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+        <ul>
+          <li>
+            <strong>Freelance, Rio Grande do Sul</strong>
+            <br /><strong>Desenvolvedor Full-Stack</strong> <br />Outubro 2023
+            - Presente
+            <ul>
+              <li>
+                <p>
+                  Projeto: <strong>Automacao de Linkedin</strong>
+                  <a href="https://github.com/jefersonprimer" target="_blank"
+                    >(Link do Projeto)</a
+                  >
+                  <br />• Lorem ipsum dolor sit amet consectetur, adipisicing
+                  elit. Similique quis repellendus harum tenetur assumenda.
+                  Sit, assumenda omnis suscipit maiores optio quos consectetur
+                  non soluta, modi explicabo voluptatibus dolorem voluptates
+                  natus. <br />- <strong>Tecnologias</strong>: ReactJs, HTML5,
+                  CSS3, Saas, JavaScript, Figma
+                </p>
+              </li>
+              <li>
+                <p>
+                  Projeto: <strong>Aluguel de carros</strong>
+                  <a href="https://github.com/jefersonprimer" target="_blank"
+                    >(Link do Projeto)</a
+                  >
+                  <br />• Lorem ipsum dolor sit amet consectetur, adipisicing
+                  elit. Similique quis repellendus harum tenetur assumenda.
+                  Sit, assumenda omnis suscipit maiores optio quos consectetur
+                  non soluta, modi explicabo voluptatibus dolorem voluptates
+                  natus. <br />- <strong>Tecnologias</strong>: ReactJs, HTML5,
+                  CSS3, Saas, JavaScript, Figma
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>OBJETIVO PROFISSIONAL</h2>
         <p>
           Desenvolvedor Mobile com 1,5 ano de experiência, especializado em
           React Native e Kotlin. Possuo expertise em construir aplicações
@@ -88,107 +149,28 @@
           consolidar minha carreira no desenvolvimento mobile.
         </p>
       </section>
+      
       <section>
-        <h2>CONTATO</h2>
+        <h2>Idiomas</h2>
         <ul>
-          <li>
-            Portfólio:<a href="index02.html" target="_blank"
-              >Meu Portfólio</a
-            >
-          </li>
-          <li>
-            GitHub:<a
-              href="https://github.com/jefersonprimer"
-              target="_blank"
-              > jeferson primer</a
-            >
-          </li>
-          <li>
-            LinkedIn:<a
-              href="https://linkedin.com/in/jeferson-primer"
-              target="_blank"
-              >jeferson primer</a
-            >
-          </li>
-          <li>
-            WhatsApp:
-            <a href="https://wa.me/996625561" target="_blank">(55)99662-5561</a>
-          </li>
-          <li>
-            E-mail:
-            <a href="mailto:contato.primerdev@gmail.com"
-              >contato.primerdev@gmail.com</a
-            >
-          </li>
+          <li><strong>Inglês</strong>: B1, intermediário em conversação, leitura e escrita.</li>
+          <li><strong>Espanhol</strong>: A2, básico em leitura e escrita.</li>
         </ul>
       </section>
-      <section>
-        <h2>HABILIDADES E COMPETÊNCIAS</h2>
-        <ul>
-          <li>Kotlin | Android SDK | JavaScript | TypeScript | React Native</li>
-          <br />
-          <li>
-            Familiaridade com HTML | CSS | Tailwind | Redux | java | GraphQL |
-            JUnit | Jest | Docker, Aws, CI/CD , Git, GitHub e Slack.
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>IDIOMAS</h2>
-        <ul>
-          <li>Inglês intermediário em conversação, leitura e escrita.</li>
-          <li>Espanhol básico em leitura e escrita.</li>
-        </ul>
-      </section>
-      <section>
-        <h2>EXPERIÊNCIA PROFISSIONAL</h2>
-        <ul>
-          <li>
-            <strong>Freelance, Rio Grande do Sul</strong>
-            <br /><strong>Desenvolvedor Mobile</strong> <br />Outubro 2023 -
-            Presente
-            <ul>
-              <li>
-                <p>
-                  Projeto: <strong>Automacao de Linkedin</strong>
-                  <a href="https://github.com/jefersonprimer" target="_blank"
-                    >(Link do Projeto)</a
-                  >
-                  <br />• Lorem ipsum dolor sit amet consectetur, adipisicing
-                  elit. Similique quis repellendus harum tenetur assumenda. Sit,
-                  assumenda omnis suscipit maiores optio quos consectetur non
-                  soluta, modi explicabo voluptatibus dolorem voluptates natus.
-                  <br />- <strong>Tecnologias</strong>: ReactJs, HTML5, CSS3,
-                  Saas, JavaScript, Figma
-                </p>
-              </li>
-              <li>
-                <p>
-                  Projeto: <strong>Aluguel de carros</strong>
-                  <a href="https://github.com/jefersonprimer" target="_blank"
-                    >(Link do Projeto)</a
-                  >
-                  <br />• Lorem ipsum dolor sit amet consectetur, adipisicing
-                  elit. Similique quis repellendus harum tenetur assumenda. Sit,
-                  assumenda omnis suscipit maiores optio quos consectetur non
-                  soluta, modi explicabo voluptatibus dolorem voluptates natus.
-                  <br />- <strong>Tecnologias</strong>: ReactJs, HTML5, CSS3,
-                  Saas, JavaScript, Figma
-                </p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+      
       <section>
         <h2>FORMAÇÃO</h2>
         <ul>
           <li>
-            <strong>Universidade Estácio de Sá de Rio Grande do Sul.</strong>
-            <br />- Engenharia de Software - Em andamento, atualmente no 4° semestre.
+            <strong>Universidade Estácio de Sá de Rio Grande do Sul (2024 - 2028)</strong>
+            <br />- Engenharia de Software - Em andamento, atualmente no 5° semestre.
           </li>
-          <br />
-          <strong>Cursos Complementares:</strong>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Cursos Complementares:</h2>
+        <ul>
           <li>- CS50 Introdução à Ciência da Computação - Havard</li>
           <li>- Programação Web do CS50 - Havard</li>
           <li>- Introdução à Ciência de Dados com Python(LLM) - Havard</li>
